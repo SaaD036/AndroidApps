@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "775248491443",
+    "firebase_url": "https://fireapp-d9dc8.firebaseio.com",
+    "project_id": "fireapp-d9dc8",
+    "storage_bucket": "fireapp-d9dc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775248491443:android:87d1f017640c2142c991c6",
+        "android_client_info": {
+          "package_name": "com.example.coachingmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775248491443-9j893p0r84j5ktfis39423b6fge2pqq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coachingmanagement",
+            "certificate_hash": "4cb47471f75cf4a5e4297f1537af35c9f4916916"
+          }
+        },
+        {
+          "client_id": "775248491443-851hskr0hor9js0sm20v55k54ot53tn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40wFf2iXVmyC4zkNgnPrVE3lFlJknp28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775248491443-851hskr0hor9js0sm20v55k54ot53tn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

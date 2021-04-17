@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmPayment"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/confirm_payment">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/confirmPament_nameEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/student_input"
+
+            android:hint="Student name"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/confirmPament_phoneEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/phone"
+            android:layout_marginTop="5dp"
+            android:inputType="phone"
+
+            android:hint="Phone"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/confirmPament_amountEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/fees"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+
+            android:hint="Amount"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+            <Button
+                android:id="@+id/confirmPament_conPayButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/button"
+                android:enabled="false"
+
+                android:text="Confirm payment"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+            </Button>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10">
+            </LinearLayout>
+            <Button
+                android:id="@+id/confirmPament_deleteButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/button"
+                android:enabled="false"
+
+                android:text="Delete student"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+            </Button>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/confirmPament_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:background="@drawable/input"
+            android:divider="@color/violet"
+            android:dividerHeight="2dp">
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

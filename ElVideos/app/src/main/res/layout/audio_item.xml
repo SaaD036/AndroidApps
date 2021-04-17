@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home_layout">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="25"
+        android:src="@mipmap/audio"
+        android:padding="10dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/audioItem_playTextview"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="50"
+        android:gravity="center"
+
+        android:text="Pause..."
+        android:textColor="#fff"
+        android:textSize="20dp">
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "417297940546",
+    "firebase_url": "https://smartclass-e561e.firebaseio.com",
+    "project_id": "smartclass-e561e",
+    "storage_bucket": "smartclass-e561e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417297940546:android:9ee3483bde2d3e20f42ddb",
+        "android_client_info": {
+          "package_name": "com.example.elvideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417297940546-5kh5cnqnm3hklghg135jor2mgt4epr6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elvideos",
+            "certificate_hash": "4cb47471f75cf4a5e4297f1537af35c9f4916916"
+          }
+        },
+        {
+          "client_id": "417297940546-in2su3lenplsq6dg7mtject0c0i8jpl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmjsxMzjJzXF4kdbg0PAyezho-1LM1yy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417297940546-in2su3lenplsq6dg7mtject0c0i8jpl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

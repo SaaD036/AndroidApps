@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/home_bottom_menu_home">
+    </item>
+
+    <item android:title="Apply"
+        android:icon="@drawable/send_mail"
+        android:id="@+id/home_bottom_menu_apply">
+    </item>
+
+    <item android:title="Applied jobs"
+        android:icon="@drawable/applied_job"
+        android:id="@+id/home_bottom_menu_appliedJob">
+    </item>
+</menu>

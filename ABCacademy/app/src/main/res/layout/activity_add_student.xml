@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/addStudent_nameEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/student_input"
+
+
+            android:hint="Student name"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/addStudent_phoneEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/phone"
+            android:layout_marginTop="5dp"
+            android:inputType="phone"
+
+            android:hint="Phone"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/addStudent_batchEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/batch_input"
+            android:layout_marginTop="5dp"
+
+            android:hint="Batch"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/addStudent_subjectEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/subject"
+            android:layout_marginTop="5dp"
+
+            android:hint="Subject"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/addStudent_dateEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/calender"
+            android:layout_marginTop="5dp"
+            android:inputType="date"
+
+            android:hint="Admission date in YYYY-MM-DD format"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <EditText
+            android:id="@+id/addStudent_feesEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/fees"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+
+            android:hint="Fees"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingRight="30dp">
+            <Button
+                android:id="@+id/addStudent_addStudentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/button"
+
+                android:text="Add student"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/addStudent_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/input"
+        android:divider="@color/violet"
+        android:dividerHeight="2dp">
+    </ListView>
+</LinearLayout>

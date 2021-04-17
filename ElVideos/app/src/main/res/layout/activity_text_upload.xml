@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextUpload"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:src="@mipmap/book"
+        android:padding="15dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textUpload_nameText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/input"
+            android:gravity="center"
+
+            android:hint="Enter story name"
+            android:textColor="#1a1aff"
+            android:textColorHint="#1a1aff"
+            android:textSize="17dp">
+        </EditText>
+        <EditText
+            android:id="@+id/textUpload_storyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:maxHeight="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/input"
+            android:gravity="center"
+
+            android:hint="Enter story"
+            android:textColor="#1a1aff"
+            android:textColorHint="#1a1aff"
+            android:textSize="17dp">
+        </EditText>
+        <Button
+            android:id="@+id/textUpload_saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button"
+            android:layout_margin="15dp"
+
+            android:text="Save"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:textAllCaps="false">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

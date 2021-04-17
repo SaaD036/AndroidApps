@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBatch"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:src="@mipmap/create_batch">
+    </ImageView>
+    <LinearLayout
+        android:id="@+id/createBatch_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/createBatch_batchNameEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:drawableRight="@drawable/batch_input"
+
+
+            android:hint="Batch name"
+            android:textSize="15dp"
+            android:textColor="@color/pink"
+            android:textColorHint="@color/pink">
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp">
+            <Button
+                android:id="@+id/createBatch_deleteBatchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/button"
+
+                android:text="Delete batch"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+            </Button>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10">
+            </LinearLayout>
+            <Button
+                android:id="@+id/createBatch_addBatchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/button"
+
+                android:text="Add batch"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/createBatch_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:divider="@color/violet"
+        android:dividerHeight="2dp"
+        android:background="@drawable/input"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+    </ListView>
+    <ImageButton
+        android:id="@+id/createBatch_addBatchImagebutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/add"
+        android:background="@drawable/image_button">
+    </ImageButton>
+
+</LinearLayout>

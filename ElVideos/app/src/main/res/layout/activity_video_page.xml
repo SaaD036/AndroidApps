@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoPage"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/videoPage_premiumLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="85"
+            android:src="@mipmap/video">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center"
+
+            android:text="Premium video"
+            android:textSize="30dp"
+            android:textColor="#F61C0A">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <EditText
+            android:id="@+id/videoPage_passwordText"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="70"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/password"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:visibility="invisible"
+
+            android:hint="Enter password"
+            android:textColor="#1a1aff"
+            android:textColorHint="#1a1aff"
+            android:textSize="17dp">
+        </EditText>
+        <Button
+            android:id="@+id/videoPage_goButton"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="30"
+            android:background="@drawable/button"
+            android:visibility="invisible"
+            android:enabled="false"
+
+            android:text="Go"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:textAllCaps="false">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/videoPage_freeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="85"
+            android:src="@mipmap/video">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center"
+
+            android:text="Free video"
+            android:textSize="30dp"
+            android:textColor="#63491C">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

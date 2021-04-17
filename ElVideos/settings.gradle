@@ -1,0 +1,2 @@
+rootProject.name='ElVideos'
+include ':app'

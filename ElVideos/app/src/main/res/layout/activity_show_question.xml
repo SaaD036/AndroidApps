@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowQuestion"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/quiz"
+        android:background="#fff">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/showQuestion_quesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center"
+            android:visibility="gone"
+
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#F30505">
+        </TextView>
+
+        <Button
+            android:id="@+id/showQuestion_op1Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/input"
+            android:enabled="false"
+            android:visibility="gone"
+
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+        <Button
+            android:id="@+id/showQuestion_op2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/input"
+            android:enabled="false"
+            android:visibility="gone"
+
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+        <Button
+            android:id="@+id/showQuestion_op3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/input"
+            android:enabled="false"
+            android:visibility="gone"
+
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+        <Button
+            android:id="@+id/showQuestion_op4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/input"
+            android:enabled="false"
+            android:visibility="gone"
+
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+
+        <TextView
+            android:id="@+id/showQuestion_statText"
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:padding="15dp"
+            android:gravity="center"
+            android:visibility="gone"
+
+            android:textSize="17dp"
+            android:textColor="#000">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/showQues_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:divider="#000"
+            android:dividerHeight="40dp">
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

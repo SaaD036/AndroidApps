@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/home_layout">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="30"
+        android:src="@mipmap/storybook">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textItem_nameText"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="70"
+        android:gravity="center"
+
+        android:textColor="#FA1E04"
+        android:textSize="25dp">
+    </TextView>
+
+</LinearLayout>

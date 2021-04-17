@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioPage"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/audioPage_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/audio_playing"
+        android:background="@drawable/home_layout">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/audioPage_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Playing..."
+        android:textColor="#000"
+        android:textSize="18dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/audioPage_Button"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+
+
+        android:text="Pause"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textAllCaps="false">
+    </Button>
+
+</LinearLayout>

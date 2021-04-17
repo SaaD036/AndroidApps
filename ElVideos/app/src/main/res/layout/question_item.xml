@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/quesItem_quesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#F80404">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <Button
+            android:id="@+id/quesItem_op1Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:background="@drawable/button_quiz"
+
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+        </TextView>
+        <Button
+            android:id="@+id/quesItem_op2Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:background="@drawable/button_quiz"
+
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/quesItem_op3Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:background="@drawable/button_quiz"
+
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+        </TextView>
+        <Button
+            android:id="@+id/quesItem_op4Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:background="@drawable/button_quiz"
+
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

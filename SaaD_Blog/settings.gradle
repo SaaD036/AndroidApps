@@ -1,0 +1,2 @@
+rootProject.name='SaaD_Blog'
+include ':app'

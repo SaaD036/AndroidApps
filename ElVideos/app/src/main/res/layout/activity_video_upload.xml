@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoUpload"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#000000"
+        android:gravity="center">
+
+        <VideoView
+            android:id="@+id/uploaded_videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/videoNameText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+
+        android:hint="Enter video name"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="16dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/videoUpload_statusButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:layout_marginBottom="10dp"
+
+
+        android:text="This is free video.\nClick here to make it paid"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="16dp">
+    </Button>
+
+    <Button
+        android:id="@+id/showVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="5dp"
+
+        android:text="Show video"
+        android:textAllCaps="false"
+        android:textColor="#fff">
+    </Button>
+
+
+    <Button
+        android:id="@+id/chooseVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="5dp"
+
+        android:text="Choose video"
+        android:textAllCaps="false"
+        android:textColor="#fff">>
+    </Button>
+
+    <Button
+        android:id="@+id/upload_videoButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="5dp"
+
+        android:text="Upload video"
+        android:textAllCaps="false"
+        android:textColor="#fff">>
+    </Button>
+
+</LinearLayout>

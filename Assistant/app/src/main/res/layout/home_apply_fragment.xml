@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/applyFragment_emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:hint="Email"
+        android:textSize="15dp"
+        android:textColorHint="@color/green"
+        android:textColor="@color/green">
+    </EditText>
+    <EditText
+        android:id="@+id/applyFragment_subjectEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:hint="Subject"
+        android:textSize="15dp"
+        android:textColorHint="@color/green"
+        android:textColor="@color/green">
+    </EditText>
+    <EditText
+        android:id="@+id/applyFragment_bodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input"
+        android:padding="15dp"
+
+        android:hint="Body"
+        android:textSize="15dp"
+        android:textColorHint="@color/green"
+        android:textColor="@color/green">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/applyFragment_attachFileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/button"
+
+            android:text="Attach file"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAllCaps="false">
+        </Button>
+
+        <Button
+            android:id="@+id/applyFragment_sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/button"
+
+            android:text="Send"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAllCaps="false">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

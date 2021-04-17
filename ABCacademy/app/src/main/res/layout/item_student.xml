@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Name"
+            android:textSize="20dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_nameTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+        <ImageView
+            android:id="@+id/itemStudent_unpaidImageview"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemStudent_phoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Phone"
+            android:textSize="18dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_phoneTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Batch"
+            android:textSize="18dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_batchTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemStudent_subjectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Subject"
+            android:textSize="18dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_subjectTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Due"
+            android:textSize="18dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_dueTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemStudent_paymentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Total payment"
+            android:textSize="18dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_totalPaymentTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemStudent_dateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+
+            android:text="Admission date"
+            android:textSize="18dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/itemStudent_dateTextview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+
+            android:textColor="@color/pink"
+            android:textSize="15dp">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

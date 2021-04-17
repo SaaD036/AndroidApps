@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowStudent"
+    android:padding="10dp">
+
+    <ListView
+        android:id="@+id/showAllStudnnt_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        android:divider="@color/violet"
+        android:background="@drawable/input"
+        android:padding="5dp">
+    </ListView>
+
+</LinearLayout>

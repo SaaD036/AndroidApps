@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioUpload"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="#000"
+        android:src="@mipmap/audio"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/audioUpload_playText"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+
+            android:text="Pause...">
+        </TextView>
+
+        <Button
+            android:id="@+id/audioUpload_playButton"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:background="@drawable/button"
+
+            android:text="Play"
+            android:textAllCaps="false"
+            android:textColor="#fff">
+        </Button>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/audioUpload_nameText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/input"
+
+        android:hint="Enter audio name"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="16dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/audioUpload_listenButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="5dp"
+
+        android:text="Listen audio"
+        android:textColor="#fff"
+        android:textAllCaps="false">
+    </Button>
+
+    <Button
+        android:id="@+id/audioUpload_chooseButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="5dp"
+
+        android:text="Choose Audio"
+        android:textColor="#fff"
+        android:textAllCaps="false">
+    </Button>
+
+    <Button
+        android:id="@+id/audioUpload_uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="5dp"
+
+        android:text="Upload Audio"
+        android:textColor="#fff"
+        android:textAllCaps="false">
+    </Button>
+
+</LinearLayout>

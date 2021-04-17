@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/login"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/login_emailText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/input"
+        android:gravity="center"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="-40dp"
+
+        android:hint="Email or phone"
+        android:textSize="16dp"
+        android:textColor="@color/pink"
+        android:textColorHint="@color/pink">
+    </EditText>
+
+    <EditText
+        android:id="@+id/login_passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="-40dp"
+        android:gravity="center"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:textColor="@color/pink"
+        android:textColorHint="@color/pink"
+        android:textSize="16dp">
+    </EditText>
+    <Button
+        android:id="@+id/login_loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17dp"></Button>
+    <Button
+        android:id="@+id/login_signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/button"
+
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17dp">
+
+    </Button>
+
+</LinearLayout>
